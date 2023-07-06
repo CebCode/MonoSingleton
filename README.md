@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
 
 Change to:
 
-public class GameManager : MonoSingleton<GameManager>
+public class GameManager : MonoSingleton&lt;GameManager&gt;
 
 Then instead of:
 
