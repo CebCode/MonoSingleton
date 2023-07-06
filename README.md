@@ -16,14 +16,18 @@ Then instead of:
 
 private void Awake()
 {
+
   //Awake code.
+  
 }
 
 Use:
 
 public override void Init()
 {
+
   //Awake code.
+  
 }
 
 Everything else is the same, you will now only have one instance of your gameobject even when you load other scenes, or create duplicates in the same scene.
